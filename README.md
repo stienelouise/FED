@@ -52,10 +52,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
-  <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
+  <summary>uitwerken na test in 2<sup>e</sup> Het is redelijk te doen om met de screenreader te navigeren door de website van Absolute Vodka. Wat me als eerste opviel was dat er allerlei linkjes werden uitgesproken in de bovenste 'banner' die niet te zien waren. Later zag ik dat dit allerlei H4's waren. Deze waren allemaal geschreven in capslock. Er zijn knoppen die niet worden uitgesproken zoals bij de espresso martini. Bij de detailpagina van de recepten wil de screenreader het recept niet voorlezen. Gelukkig wel bij het aankoopscherm. Verder hebben niet alle afbeeldingen alt teksten.</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  - Veel read more zonder beschrijving
+  - Veel titels die in de afbeelding verwerkt zijn
+  - Als je uitzoomt schalen de afbeeldingen niet mee
+  - Een url uit de css wilt niet laden
+  - Titel van de pagina staat als class in de body
+  - Er is een focus state aanwezig
+  - De menu knop is erg klein
+  - De knoppen zijn moeilijk leesbaar op mobiel (geen contrast)
+  - Geen gebruik gemaakt van lijstjes
+  - Niet overal een alt bij de afbeelding
+  - Er is niet bij elke video een pauze knop
+  - Geen darkmode
+  - Geen gebruik gemaakt van ::selection colors
 
 </details>
 
@@ -64,16 +76,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Breakdownschets (week 1)
 
 <details>
-  <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
+  <summary>Week 1<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/BreakdownschetsStiene.png" width="375px" alt="breakdown van de hele homepagina">
+  <img src="readme-images/BreakdownschetsAbout.png" width="375px" alt="breakdown van de hele aboutpagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
