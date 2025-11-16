@@ -79,7 +79,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>Week 1<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/BreakdownschetsStiene.png" width="375px" alt="breakdown van de hele homepagina">
+  <img src="readme-images/breakdownschetshome.png" width="375px" alt="breakdown van de hele homepagina">
   <img src="readme-images/BreakdownschetsAbout.png" width="375px" alt="breakdown van de hele aboutpagina">
 
   ### dynamisch deel (bijv menu): 
