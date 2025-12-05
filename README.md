@@ -100,24 +100,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | stiene  
-  omdraaien titel en a
-  rondddraaiend grid
-  h2 en button uit grid 
-  titel center 
-  
-  | Nicha  
-  
-  | Anne  
-  een element en dropdown button disable state
-  
-  | Kasper   
-
-  
-  | Dylan
-  Hamburgermenu en customporties
+ | Stiene                                                    
+  | omdraaien titel & rondddraaiend grid          |          
+  | h2 en button & uit grid titel center          |                  
  
-   
+  | Nicha
+  | hero slide hoe beginnen |
+  | Tabs dynamisch active en unactive|
+ 
+ 
+  | Anne                                          |
+  | een element en dropdown button disable state  |
+ 
+  | Kasper
+  |
+ 
+  | Dylan
+  | hamburger menu 2 buttons & custom properties
 
 
   ### Verslag van meeting
