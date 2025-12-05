@@ -133,11 +133,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Dylan                     | Stiene            | Nicha              | Anne                                              | Kasper                                  |
+| ---                       | ---               | ---                | ---                                               | ---                                     |
+| grid kaartjes             | grid is kapot     | nintendo carousel  | Een ul zowel verticaal als horizontaal plaatsen   | Afsnijden van svg door font-size        |
+| afbeelding scaling        |                   |                    |                                                   | SVG/Image in content zetten             |
+|                           |                   |                    |                                                   | Kaart in section                        |
+
 
 
   ### Verslag van meeting
