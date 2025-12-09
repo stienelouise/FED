@@ -81,6 +81,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### de hele pagina: 
   <img src="readme-images/Breakdownschets.png" width="375px" alt="breakdown van de hele homepagina">
   <img src="readme-images/BreakdownschetsAbout.png" width="375px" alt="breakdown van de hele aboutpagina">
+  <img src="readme-images/menu.png" width="375px" alt="breakdown van de hele aboutpagina">
   
 </details>
 
@@ -94,7 +95,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het gaan best goed, ik ben al lekker opweg met mijn eerste pagina. En verder heb ik de html voor pagina 2 ook al staan. Er zijn nog wel een paar dingen die er niet helemaal goed uitzien dus dat moet ik even vragen vandaag.
 
 
   ### Agenda voor meeting
@@ -109,11 +110,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
+→ Ik heb geleerd hoe grid-column end en start werkt en hoe je dit kan gebruiken om overige elementen uit te sluiten in een section.
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+→ Ik heb ook geleerd hoe je kan zoeken is VScode met command F
+
+→ Ik heb geleerd hoe je goed kan inspecteren in de inspector van google met het kopje in het vierkantje.
+
+→ emmet cheatsheet
+
+→list-style-type:””; ipv list: none voor de screenreaders
+
+→flex-shrink is: 0 om te testen
+
+→scroll-snap-type: x mandatory zodat er altijd een in het midden blijft staan
+
+→ buttons aanbieden bij carroussel
 
 </details>
 
@@ -127,7 +138,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb echt van die kleine dingen die niet lukken en waar de studenten helpers zich ook geen raad mee weten. Het voelt zo stom want het lijkt allemaal best wel simpel oplosbaar te zijn. Ik wil graag dat de website ook goed schaalt 
 
 
   ### Agenda voor meeting
@@ -142,12 +153,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Ik heb geleerd over het picture element,
+  - hoe object fit cover werkt
+  - Ik begin heeel langzaam te begrijpen hoe grid werkt
 
 </details>
 
@@ -159,9 +167,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
+  
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - Veel read more zonder beschrijving
+  - Veel titels die in de afbeelding verwerkt zijn -- Alles heb ik een Alt gegeven
+  - Als je uitzoomt schalen de afbeeldingen niet mee -- ik heb naast surfaceplane ook geprbeerd alles goed te laten schalen
+  - Een url uit de css wilt niet laden -- Alles laat nu mooi in
+  - Titel van de pagina staat als class in de body -- Titel gewoon bovenaan zoals het hoort
+  - Er is een focus state aanwezig -- Die is er nog steeds
+  - De menu knop is erg klein -- Ik heb deze wat groter gemaakt 
+  - De knoppen zijn moeilijk leesbaar op mobiel (geen contrast) Ik heb de a'tjes op foto's een background-color gegeven.
+  - Geen gebruik gemaakt van lijstjes -- Ik heb behoorlijk wat lijstjes gebruikt (kan er nu ook beter mee werken, dus heb er ook nog wat van geleerd:))
+  - Niet overal een alt bij de afbeelding -- Dat heb ik wel toegevoegd
+  - Er is niet bij elke video een pauze knop -- De video kon ik niet downloaden 
+  - Geen darkmode -- Nu wel:)
+  - Geen gebruik gemaakt van ::selection colors -- Ik heb met ::selection colors gewerkt en dit heb ik ook voor font toegevoegd.
 
 </details>
 
@@ -175,7 +196,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik ben super bang dat het te weinig is en dat ik het allemaal niet goed doe. Maar om positief te blijven: beide pagina's staan en mijn test moet ik nog doen
 
 
   ### Agenda voor meeting
@@ -192,10 +213,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+- oei oei, ik moet nog best veel doen om voor mijn eigen test te slagen.
+- ik ga mijn carroussel nog maken en kijken waar ik tijd voor heb en wat het belangrijkste is
+- ik ga kijken of ik de video nog erin kan zetten.
 
 </details>
 
@@ -213,13 +233,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik vind het nog steeds lastig maar wel leuk. Ik heb veel geleerd over wat netter coderen (nog steeds niet top) maar ik heb het gevoel dat ik het al beter snap dan de vorige codeer projecten. Dingen werken ook sneller dan eerst en ik begin meer na te denken over hoe ik iets kan maken. Kortom, het voelt logischer. In de praktijk heb ik geleerd over hoe je een site voor iedereen gebruiksvriendelijk maakt, hoe een screenreader werkt, hoe je een toggle switch maakt, en hoe je een grid en flexbox kan gebruiken. 
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Het is me niet gelukt om de video er in te zetten, het is me niet gelukt omdat ik hem niet kon downloaden en omdat ik er geen tijd voor had gemaakt door werk(anders had ik er een andere video in kunnen zetten natuurlijk) Het is nu een stil uit het filmpje wat ook wel lekker rustig is.
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
@@ -233,12 +253,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
+  1. https://www.youtube.com/watch?v=VbNq_BUHCWI (uiteindelijk niets mee gedaan, maar toch)
+  2. https://prismic.io/blog/css-text-animations (9. Wavy text)
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  3. ChatGPT. (2025, 9 december). Uitleg over CSS-carousel, toggles en layoutproblemen [Persoonlijke communicatie]. OpenAI ChatGPT.
+  4. ChatGPT. (2025, 8 december). Chatgesprek met gebruiker Stiene over CSS-afbeeldingsproblemen [Persoonlijke communicatie].
+  5. ChatGPT. (2025, 8 december). Chatgesprek met gebruiker Stiene over CSS-afbeeldingsproblemen [Persoonlijke communicatie].
+  6. ChatGPT. (2025, 3 december). Persoonlijke communicatie met gebruiker Stiene over light/dark mode toggle in HTML en JavaScript.
+  7. ChatGPT. (2025, 1 december). Chatgesprek met gebruiker Stiene over het aanpassen van opacity in CSS [Persoonlijke communicatie].
 
 </details>
