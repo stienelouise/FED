@@ -44,7 +44,7 @@ body {
 
 	:root {
 		color-scheme: light dark;
-		
+
 		--color-text: #FFFFFF;
 		--color-absolut-white: #e4e4e4;
 		--color-background: #1d1d1d;
@@ -58,6 +58,7 @@ body {
 
 
 /* Dronken mode */
+
 
 input {
 	appearance: none;
@@ -117,32 +118,32 @@ ul li input[type="checkbox"]:checked~h2 {
 @font-face {
 	font-family: 'absolut accent';
 
-	src: url("/fonts/Absolut_handwritten.woff2");
+	src: url("../fonts/Absolut_handwritten.woff2");
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'absolut heading';
-	src: url("/fonts/AbsolutHeadlineCondensed.ttf");
+	src: url("../fonts/AbsolutHeadlineCondensed.ttf");
 	letter-spacing: 8px;
 }
 
 @font-face {
 	font-family: 'absolut body';
-	src: url("/fonts/AbsolutSansRegular.ttf");
+	src: url("../fonts/AbsolutSansRegular.ttf");
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'absolut bodyBold';
-	src: url("/fonts/AbsolutSans2021-Bold.woff2");
+	src: url("../fonts/AbsolutSans2021-Bold.woff2");
 	font-style: bold;
 }
 
 @font-face {
 	font-family: 'absolut subtitle';
-	src: url("/fonts/AbsolutSansRegular.ttf");
+	src: url("../fonts/AbsolutSansRegular.ttf");
 	font-weight: 400;
 	font-style: bold;
 }
@@ -201,7 +202,7 @@ button svg {
 	width: 3em;
 	height: 3em;
 	display: block;
-	
+
 }
 
 
@@ -328,7 +329,7 @@ header nav ul li a:focus-visible {
 /* Header en Footer */
 
 header {
-	background-image: url("/images/icons_en_logos/header.avif");
+	background-image: url("../images/icons_en_logos/header.avif");
 	padding: 0em 0em 2em 2em;
 	color: var(--color-absolut-white);
 	display: flex;
