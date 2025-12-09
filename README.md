@@ -81,7 +81,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### de hele pagina: 
   <img src="readme-images/Breakdownschets.png" width="375px" alt="breakdown van de hele homepagina">
   <img src="readme-images/BreakdownschetsAbout.png" width="375px" alt="breakdown van de hele aboutpagina">
-  <img src="readme-images/menu.png" width="375px" alt="breakdown van de hele aboutpagina">
+  <img src="readme-images/menu.png" width="375px" alt="menu">
+
+  Sorry, was vergeten dat het op mobile versie moest. De website heb ik wel, 'mobile first gemaakt.' Belooft.
   
 </details>
 
@@ -95,7 +97,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Het gaan best goed, ik ben al lekker opweg met mijn eerste pagina. En verder heb ik de html voor pagina 2 ook al staan. Er zijn nog wel een paar dingen die er niet helemaal goed uitzien dus dat moet ik even vragen vandaag.
+  Het gaat best goed, ik ben al lekker opweg met mijn eerste pagina. En verder heb ik de html voor pagina 2 ook al staan. Er zijn nog wel een paar dingen die er niet helemaal goed uitzien dus dat moet ik even vragen vandaag.
 
 
   ### Agenda voor meeting
@@ -197,7 +199,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   Ik ben super bang dat het te weinig is en dat ik het allemaal niet goed doe. Maar om positief te blijven: beide pagina's staan en mijn test moet ik nog doen
-   <img src="readme-images/ruzie" width="375px" alt="ruzie">
+   <img src="readme-images/ruzie.png" width="375px" alt="ruzie">
 
 
   ### Agenda voor meeting
