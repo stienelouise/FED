@@ -186,6 +186,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Geen darkmode -- Nu wel:)
   - Geen gebruik gemaakt van ::selection colors -- Ik heb met ::selection colors gewerkt en dit heb ik ook voor font toegevoegd.
 
+    <img src="readme-images/pag1.JPG" width="375px" alt="pagina 1 van de test">
+    <img src="readme-images/pag2.JPG" width="375px" alt="pagina 2 van de test">
+    <img src="readme-images/pag3.JPG" width="375px" alt="pagina 3 van de test">
+    <img src="readme-images/pag4.JPG" width="375px" alt="pagina 4 van de test">
+    <img src="readme-images/pag5.JPG" width="375px" alt="pagina 5 van de test">
+
 </details>
 
 
@@ -199,6 +205,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   Ik ben super bang dat het te weinig is en dat ik het allemaal niet goed doe. Maar om positief te blijven: beide pagina's staan en mijn test moet ik nog doen
+  
    <img src="readme-images/ruzie.png" width="375px" alt="ruzie">
 
 
@@ -232,19 +239,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Ik vind het nog steeds lastig maar wel leuk. Ik heb veel geleerd over wat netter coderen (nog steeds niet top) maar ik heb het gevoel dat ik het al beter snap dan de vorige codeer projecten. Dingen werken ook sneller dan eerst en ik begin meer na te denken over hoe ik iets kan maken. Kortom, het voelt logischer. In de praktijk heb ik geleerd over hoe je een site voor iedereen gebruiksvriendelijk maakt, hoe een screenreader werkt, hoe je een toggle switch maakt, en hoe je een grid en flexbox kan gebruiken. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/carroussel.png" width="375px" alt="carroussel">
+  <img src="readme-images/s4mobile.png" width="375px" alt=" section 4 mobile met achtergrond op de a">
 
 
   ### Dit was lastig/Is niet gelukt:
   Het is me niet gelukt om de video er in te zetten, het is me niet gelukt omdat ik hem niet kon downloaden en omdat ik er geen tijd voor had gemaakt door werk(anders had ik er een andere video in kunnen zetten natuurlijk) Het is nu een stil uit het filmpje wat ook wel lekker rustig is.
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+<img src="readme-images/Videonietgelukt.png" width="375px" alt="video niet gelukt">
+  <img src="readme-images/s4nietgelukt.png" width="375px" alt="section 4 schaalt niet mooi">
 </details>
 
 
