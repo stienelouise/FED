@@ -197,6 +197,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   Ik ben super bang dat het te weinig is en dat ik het allemaal niet goed doe. Maar om positief te blijven: beide pagina's staan en mijn test moet ik nog doen
+   <img src="readme-images/ruzie" width="375px" alt="ruzie">
 
 
   ### Agenda voor meeting
