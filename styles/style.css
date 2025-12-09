@@ -329,7 +329,7 @@ header nav ul li a:focus-visible {
 /* Header en Footer */
 
 header {
-	background-image: url("../images/icons_en_logos/header.avif");
+	background-image: url("../images/header.avif");
 	padding: 0em 0em 2em 2em;
 	color: var(--color-absolut-white);
 	display: flex;
