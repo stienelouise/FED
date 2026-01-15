@@ -21,6 +21,12 @@ body {
 	background-color: var(--color-background);
 }
 
+
+
+
+
+
+
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -55,39 +61,99 @@ body {
 	}
 }
 
+dialog {
+	z-index: 100;
+	text-align: center;
+	padding: 1em;
+	border: none;
+	position: fixed;
+	inset: 0;
+	display: grid;
+}
 
+dialog::backdrop {
+	background-color: rgba(0, 0, 0, 0.4);
+	/* donker en doorzichtig */
+	backdrop-filter: blur(6px);
+	/* wazig maken */
+}
 
-/* Dronken mode */
+dialog p {
+	color: var(--color-absolut-white);
+	text-align: center;
+}
 
+dialog h2 {
+	font-family: var(--font-bodyBold);
+	color: var(--color-absolut-white);
+	text-align: center;
+	margin-bottom: 0.5em;
+}
 
-input {
+dialog input {
+	margin-top: 1em;
+	border: none;
+	padding: 0.5em 1em 0.5em 1em;
+	font-family: var(--font-body);
+	font-size: 1em;
+}
+
+dialog button {
+	margin-top: 1em;
+	background: var(--color-absolut-white);
+	color: var(--color-darkAccent);
+	border: 1px solid var(--color-absolut-white);
+	padding: 0.5em 1em 0.5em 1em;
+	font-family: var(--font-bodyBold);
+	font-size: 1em;
+	cursor: pointer;
+}
+
+@media (min-width: 38em) {
+
+	dialog {
+		margin: auto;
+		z-index: 100;
+		width: 40%;
+		padding-top: 2em;
+		padding-bottom: 1em;
+		border: none;
+		position: fixed;
+		inset: 0;
+		display: grid;
+		place-items: center;
+		background: color-mix(in srgb, var(--color-darkAccent) 90%, black);
+	}
+}
+
+/*********************/
+/* DRONKEN MODE */
+/*********************/
+
+nav input {
+	background: var(--color-accent);
 	appearance: none;
-
 	width: 4em;
 	aspect-ratio: 2/1;
-	background: var(--color-accent);
-
 	border-radius: 2em;
-
 	font: inherit;
 
 }
 
-input::after {
+nav input::after {
+	background: var(--color-darkAccent);
 	content: "";
 	width: 2em;
 	aspect-ratio: 1;
-	background: var(--color-darkAccent);
 	display: block;
 	border-radius: inherit;
-
 	transition: 0.4s ease;
 
 }
 
-input:checked::after {
-	translate: 2em;
+nav input:checked::after {
 	background: var(--color-darkAccent);
+	translate: 2em;
 }
 
 @keyframes wave {
@@ -106,6 +172,7 @@ input:checked::after {
 ul li input[type="checkbox"]:checked~h2 {
 	animation: wave 2s ease-in-out infinite;
 }
+
 
 
 
@@ -160,8 +227,8 @@ h1 {
 
 h2 {
 	font-family: var(--font-headline);
-	font-size: 2rem;
 	color: var(--color-text);
+	font-size: 2rem;
 }
 
 h3 {
@@ -169,16 +236,19 @@ h3 {
 }
 
 p {
+	font-family: var(--font-body);
 	color: var(--color-text);
 }
 
 
-/* Linkjes en buttons */
+/*********************/
+/* LINKJES & BUTTONS */
+/*********************/
 
 a {
 	font-family: var(--font-body);
-	text-decoration: none;
 	color: var(--color-text);
+	text-decoration: none;
 	padding: 0em 0em 0.3em 0em;
 }
 
@@ -190,7 +260,6 @@ button {
 
 button img {
 	max-width: 2em;
-
 }
 
 button:hover {
@@ -198,19 +267,13 @@ button:hover {
 }
 
 
-button svg {
-	width: 3em;
-	height: 3em;
-	display: block;
-
-}
 
 
 
 
-
-
-
+/*********************/
+/* STIJL OPMAAK */
+/*********************/
 
 article a {
 	display: flex;
@@ -238,19 +301,21 @@ img {
 
 
 
-/* Lijstopmaak en Navigatie */
 
 
+
+/*********************/
+/* LIJST & NAVIGATIE */
+/*********************/
 
 ul {
 	list-style: none;
 	padding: 2em;
-
 }
 
 header nav button {
 	position: relative;
-	z-index: 9990;
+	z-index: 12;
 }
 
 
@@ -260,52 +325,40 @@ header nav.is_open button img {
 
 header nav ul {
 	font-family: var(--font-bodyBold);
-	position: fixed;
-	top: 0;
-	left: 0;
-	height: 100vh;
-	width: 100%;
-	translate: -100% 0;
-	transition: 1s;
-	padding: 2em;
 	background-color: var(--color-footer-background);
+	transition: 1s;
+	position: fixed;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: var(--color-footer-background);
+	padding: em;
+	transform: translateX(-100%);
+	transition: transform 0.5s ease;
+	margin: 0;
+	/* reset */
 }
 
 header nav.is_open ul {
 	margin-top: 0;
-	translate: 0 0;
+	transform: translateX(0);
 }
 
 header nav ul li {
 	font-size: 1.5em;
 	text-align: left;
-	/* margin: 1em 0; */
-	padding: 1em 1em 1em 1em;
 	border-bottom: var(--color-text) solid 0.5px;
 	transition: transform 0.3s ease;
+	padding: 1em 1em 1em 1em;
 
 }
 
-header nav ul li:nth-last-of-type(1) {
-	border-bottom: none;
-	transition: none;
-}
-
-header nav ul li:nth-last-of-type(2) {
-	border-bottom: none;
-	transition: none;
-}
 
 @media (min-width: 38em) {
 	header nav ul {
 		width: 40%;
 	}
 }
-
-
-
-
-
 
 
 header nav ul li:hover,
@@ -316,8 +369,8 @@ header nav ul li a:focus {
 
 
 header nav ul li a:focus-visible {
-	outline: 2px solid var(--color-accent);
 	background-color: var(--color-background-subtile);
+	outline: 2px solid var(--color-accent);
 }
 
 header nav ul li a:focus-visible {
@@ -326,17 +379,22 @@ header nav ul li a:focus-visible {
 
 
 
-/* Header en Footer */
+
+
+
+
+/*********************/
+/* HEADER & FOOTER */
+/*********************/
 
 header {
 	background-image: url("../images/header.avif");
-	padding: 0em 0em 2em 2em;
 	color: var(--color-absolut-white);
 	display: flex;
 	align-items: center;
 	position: sticky;
-	top: 0;
-	z-index: 9999;
+	padding: 0em 0em 2em 2em;
+	z-index: 20;
 }
 
 header img {
@@ -350,15 +408,10 @@ header nav {
 	flex: 0 0 auto;
 }
 
-
-
-
-
-
 header img {
 	position: absolute;
-	left: 50%;
 	transform: translateX(-50%);
+	left: 50%;
 	height: 2em;
 	width: auto;
 }
@@ -367,8 +420,8 @@ header img {
 footer {
 	font-family: var(--font-body);
 	color: var(--color-text);
-	line-height: 2.5em;
 	background-color: var(--color-footer-background);
+	line-height: 2.5em;
 	padding: 2rem;
 }
 
@@ -381,8 +434,6 @@ footer h2 {
 	white-space: nowrap;
 	width: 1px;
 }
-
-
 
 
 footer summary {
@@ -398,40 +449,35 @@ footer ul {
 
 footer ul li {
 	font-family: var(--font-body);
-	margin-bottom: 0.3rem;
 	border-bottom: 0.5px solid var(--color-text);
+	margin-bottom: 0.3rem;
 	transition: transform 0.3s ease;
-
 }
 
 footer ul li:hover {
 	background-color: var(--color-background);
 	transform: translateX(10px);
-
 }
 
-footer section {
-	margin-top: 1rem;
+footer section:nth-of-type(1) {
 	display: flex;
-	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: center;
+	gap: 1rem;
+	padding-top: 1rem;
+}
+
+footer section:nth-of-type(2) {
+	display: flex;
+	justify-content: center;
+	padding-top: 1rem;
+	gap: 1rem;
+	flex-direction: column;
 	align-items: center;
+	line-height: normal;
 
 }
 
-
-footer section button {
-	display: inline-flex;
-	align-items: center;
-	gap: 0.5rem;
-	cursor: pointer;
-	margin-right: 0.5rem;
-	margin-bottom: 0.5rem;
-	flex: 0 0 auto;
-	transition: transform 0.3s ease;
-
-}
 
 /* voor anmieren ::details-content: van https://www.youtube.com/watch?v=Vzj3jSUbMtI */
 
@@ -446,7 +492,6 @@ details summary::-webkit-details-marker {
 
 summary {
 	border-bottom: 0.5px solid var(--color-text);
-
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -468,19 +513,12 @@ footer svg {
 	fill: var(--color-text)
 }
 
-footer svg:hover {
-	background-color: var(--color-background);
-	padding: 0.5em;
-	color: var(--color-darkAccent);
-	border-radius: 50%;
-}
 
 @media (width > 42em) {
 	footer {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		gap: 2rem;
-		gap: 1em;
 	}
 
 	summary {
@@ -498,10 +536,27 @@ footer svg:hover {
 	footer section {
 		grid-column: 4 / span 1;
 
-
 		justify-content: flex-start;
 		align-items: flex-start;
 		margin-top: 0;
+	}
+
+	@media (width > 42em) {
+		footer {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+			gap: 2rem;
+		}
+
+		footer section:first-of-type {
+			grid-column: 4;
+			grid-row: 1;
+		}
+
+		footer section:last-of-type {
+			grid-column: 4;
+			grid-row: 1;
+		}
 	}
 
 }

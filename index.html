@@ -16,6 +16,14 @@
 </head>
 
 <body>
+	<dialog id="ageMenu" style="display: block;">
+		<img src="images/icons_en_logos/absolut_logo.svg" alt="logo absolut-vodka" />
+		<h2>Welcome</h2>
+		<p>You have to be over 18 to enter this site. Please enter your date of birth.</p>
+		<input type="date" id="dob" aria-label="date of birth">
+		<button id="submitDob" aria-label="submit date of birth">Submit</button>
+	</dialog>
+
 	<header>
 		<h1>Homepage Absolut vodka</h1>
 		<a href="index.html">
@@ -23,7 +31,6 @@
 		</a>
 
 		<nav>
-			<!-- Svg van maken -->
 			<button aria-hidden="true"><img src="images/icons_en_logos/menu_closed.svg" alt="" /></button>
 
 			<ul>
@@ -35,7 +42,7 @@
 				<li><a href="overons.html">Our Story</a></li>
 				<li><a href="#">Sign up</a></li>
 				<li>
-					<input type="checkbox" aria-label="drunkmode">
+					<input class="drunkmode" type="checkbox" aria-label="drunkmode">
 				</li>
 			</ul>
 		</nav>
@@ -44,15 +51,22 @@
 
 
 
+	<main>
+		<!-- section 1 -->
+		<section>
+			<h2>Artist edition</h2>
+			<img src="images/artist_edition.png" alt="Special haring edition from absolut vodka" width="300">
+			<a></a>
+		</section>
 
-	<!-- section 1 -->
-	<section>
-		<h2>Artist edition</h2>
-		<img src="images/artist_edition.png" alt="Special haring edition from absolut vodka" width="300">
-		<a></a>
-	</section>
 
 
+		<!-- section 2 -->
+		<section>
+			<h2></span>Welcome to the<span> absolut world of vodka</h2>
+			<img src="images/video.avif" alt="Welcome to Absolut vodka" width="300">
+			<a>Come on in</a>
+		</section>
 
 
 
@@ -60,101 +74,117 @@
 
 
 
-	<!-- section 2 -->
-	<section>
-		<h2></span>Welcome to the<span> absolut world of vodka</h2>
-		<img src="images/video.avif" alt="Welcome to Absolut vodka" width="300">
-		<a>Come on in</a>
-	</section>
 
 
 
+		<!-- section 3 -->
+		<section>
+			<a>
+				<h2>Featured <span>Absolut</span> Products</h2>
+			</a>
+			<ul>
+				<li>
+					<article>
+						<a>
+							<h3>Absolut haring</h3>
+							<img src="images/absolut_haring.jpg" alt="Absolut vodka with haring flavor" width="300">
+						</a>
+					</article>
+				</li>
 
+				<li>
+					<article>
+						<a>
+							<h3>Absolut original</h3>
+							<img src="images/Absolut-Vodka-Original.avif" alt="Absolut vodka original" width="300">
+						</a>
+					</article>
+				</li>
 
+				<li>
+					<article>
+						<a>
+							<h3>Absolut watermelon</h3>
+							<img src="images/absolut_watermelon.jpg" alt="Absolut vodka with watermelon flavor"
+								width="300">
+						</a>
+					</article>
+				</li>
 
+				<li>
+					<article>
+						<a>
+							<h3>Absolut lime</h3>
+							<img src="images/absolut_lime.jpg" alt="Absolut vodka with lime flavor" width="300">
+						</a>
+					</article>
+				</li>
 
+				<li>
+					<article>
+						<a>
+							<h3>Absolut citron</h3>
+							<img src="images/absolut_citron.jpg" alt="Absolut vodka width lemon flavor" width="300">
+						</a>
+					</article>
+				</li>
 
+			</ul>
+		</section>
 
 
-	<!-- section 3 -->
-	<section>
-		<a>
-			<h2>Featured <span>Absolut</span> Products</h2>
-		</a>
-		<ul>
-			<li>
-				<article>
-					<a>
-						<h3>Absolut haring</h3>
-						<img src="images/absolut_haring.jpg" alt="Absolut vodka with haring flavor" width="300">
-					</a>
-				</article>
-			</li>
 
-			<li>
-				<article>
-					<a>
-						<h3>Absolut original</h3>
-						<img src="images/Absolut-Vodka-Original.avif"
-							alt="Absolut vodka original" width="300">
-					</a>
-				</article>
-			</li>
 
-			<li>
-				<article>
-					<a>
-						<h3>Absolut watermelon</h3>
-						<img src="images/absolut_watermelon.jpg" alt="Absolut vodka with watermelon flavor" width="300">
-					</a>
-				</article>
-			</li>
 
-			<li>
-				<article>
-					<a>
-						<h3>Absolut lime</h3>
-						<img src="images/absolut_lime.jpg" alt="Absolut vodka with lime flavor" width="300">
-					</a>
-				</article>
-			</li>
 
-			<li>
-				<article>
-					<a>
-						<h3>Absolut citron</h3>
-						<img src="images/absolut_citron.jpg" alt="Absolut vodka width lemon flavor" width="300">
-					</a>
-				</article>
-			</li>
 
-		</ul>
-	</section>
 
 
 
 
 
 
+		<!-- section 4 -->
 
+		<section>
+			<div>
+				<h2>Learn to make top-quality drinks from home</h2>
+				<a href="#">Get started!</a>
+			</div>
+			<img src="images/kersen_cocktail.jpg" alt="Cherry cocktail" width="300">
+		</section>
 
 
 
 
 
 
-	<!-- section 4 -->
-	<section>
 
-		<h2>Learn to make top-quality drinks from home</h2>
-		<img src="images/kersen_cocktail.avif" alt="Two cocktails in negroniglass with cherry" width="300">
-		<a href="#">Get started!</a>
 
-	</section>
 
 
 
+		<!-- section 5 -->
 
+		<section>
+			<h2>Show Your #ABSOLUTVODKA</h2>
+			<p>Tag @absolutvodka for a chance to get featured here!</p>
+			<img src="images/cocktails/basilicum_cocktail.png" alt="absolut vodka instagram, Basil cocktail"
+				width="300">
+			<img src="images/cocktails/bloem_cocktail.webp" alt="absolut vodka instagram, flower cocktail" width="300">
+			<img src="images/cocktails/citroen_cocktail.png" alt="absolut vodka instagram, lemon cocktail" width="300">
+			<img src="images/cocktails/watermeloen_cocktail.webp" alt="absolut vodka instagram, watermelon cocktail"
+				width="300">
+			<img src="images/cocktails/fruitige_cocktail.png" alt="absolut vodka instagram, fruity cocktail"
+				width="300">
+			<img src="images/cocktails/koffiekoekje_cocktail.webp"
+				alt="absolut vodka instagram, coffee flavored cocktail" width="300">
+			<img src="images/cocktails/love_cocktail.png" alt="absolut vodka instagram, with love font on the bottle"
+				width="300">
+			<img src="images/cocktails/martini_cocktail.png" alt="absolut vodka instagram, espresso martini"
+				width="300">
+			<button> Gimme more!</button>
+		</section>
 
 
 
@@ -162,73 +192,48 @@
 
 
 
-	<!-- section 5 -->
+		<!-- section 6 -->
+		<section>
+			<h2>Our story (verbergen)</h2>
 
-	<section>
-		<h2>Show Your #ABSOLUTVODKA</h2>
-		<p>Tag @absolutvodka for a chance to get featured here!</p>
-		<img src="images/cocktails/basilicum_cocktail.png" alt="absolut vodka instagram, Basil cocktail" width="300">
-		<img src="images/cocktails/bloem_cocktail.webp" alt="absolut vodka instagram, flower cocktail" width="300">
-		<img src="images/cocktails/citroen_cocktail.png" alt="absolut vodka instagram, lemon cocktail" width="300">
-		<img src="images/cocktails/watermeloen_cocktail.webp" alt="absolut vodka instagram, watermelon cocktail"
-			width="300">
-		<img src="images/cocktails/fruitige_cocktail.png" alt="absolut vodka instagram, fruity cocktail" width="300">
-		<img src="images/cocktails/koffiekoekje_cocktail.webp" alt="absolut vodka instagram, coffee flavored cocktail"
-			width="300">
-		<img src="images/cocktails/love_cocktail.png" alt="absolut vodka instagram, with love font on the bottle"
-			width="300">
-		<img src="images/cocktails/martini_cocktail.png" alt="absolut vodka instagram, espresso martini" width="300">
-		<button> Gimme more!</button>
-	</section>
+			<ul>
+				<li>
+					<article>
+						<h3>Discover all absolut flavors</h3>
+						<img src="images/cold_vodka.jpg" alt="Cold vodka bottle" width="300">
+						<a href="#">Products →</a>
+					</article>
+				</li>
 
+				<li>
+					<article>
 
+						<h3>Learn how to make drinks from home</h3>
+						<img src="images/overbelicht_cocktails.jpg" alt="Absolut vodka bottle" width="300">
+						<a href="#">Visit AbsolutDrinks.com →</a>
+					</article>
+				</li>
 
+				<li>
+					<article>
+						<h3>Explore the history and heritage of Absolut Vodka</h3>
+						<img src="images/gebouw.jpg" alt="factory absolut vodka" width="300">
+						<a href="#">Our story →</a>
+					</article>
+				</li>
 
+				<li>
+					<article>
+						<h3>Discover the Absolut creative collaborations</h3>
+						<img src="images/wall_paint.jpg" alt="wall with commercial absolut vodka" width="300">
+						<a href="#">Absolut collaborations →</a>
+					</article>
+				</li>
 
+			</ul>
+		</section>
 
-
-	<!-- section 6 -->
-	<section>
-		<h2>Our story (verbergen)</h2>
-
-		<ul>
-			<li>
-				<article>
-					<h3>Discover all absolut flavors</h3>
-					<img src="images/cold_vodka.jpg" alt="Cold vodka bottle" width="300">
-					<a href="#">Products →</a>
-				</article>
-			</li>
-
-			<li>
-				<article>
-
-					<h3>Learn how to make drinks from home</h3>
-					<img src="images/overbelicht_cocktails.jpg" alt="Absolut vodka bottle" width="300">
-					<a href="#">Visit AbsolutDrinks.com →</a>
-				</article>
-			</li>
-
-			<li>
-				<article>
-					<h3>Explore the history and heritage of Absolut Vodka</h3>
-					<img src="images/gebouw.jpg" alt="factory absolut vodka" width="300">
-					<a href="#">Our story →</a>
-				</article>
-			</li>
-
-			<li>
-				<article>
-					<h3>Discover the Absolut creative collaborations</h3>
-					<img src="images/wall_paint.jpg" alt="wall with commercial absolut vodka" width="300">
-					<a href="#">Absolut collaborations →</a>
-				</article>
-			</li>
-
-		</ul>
-	</section>
-
-
+	</main>
 
 
 
@@ -271,63 +276,59 @@
 
 		<section>
 
-			<button><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
-					aria-label="YouTube">
-					<g clip-path="url(#clip0_1105_141)">
+			<h2>Media en taalinstellingen (verbergen)</h2>
+
+			<a href="#" aria-label="Youtube van Absolut vodka">
+				<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000" width="32" height="32">
+					<title>YouTube</title>
+					<path
+						d="M23.498 6.186a2.997 2.997 0 0 0-2.112-2.112C19.06 3.5 12 3.5 12 3.5s-7.06 0-9.386.574a2.997 2.997 0 0 0-2.112 2.112A31.032 31.032 0 0 0 0 12a31.032 31.032 0 0 0 .502 5.814 2.997 2.997 0 0 0 2.112 2.112C4.94 20.5 12 20.5 12 20.5s7.06 0 9.386-.574a2.997 2.997 0 0 0 2.112-2.112A31.032 31.032 0 0 0 24 12a31.032 31.032 0 0 0-.502-5.814ZM9.546 15.568V8.432L15.818 12l-6.272 3.568Z" />
+				</svg>
+			</a>
+
+
+			<a href="#" aria-label="Facebook van Absolut vodka">
+				<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000" width="32" height="32">
+					<title>Facebook</title>
+					<path
+						d="M22 12c0-5.522-4.477-10-10-10S2 6.478 2 12c0 4.991 3.657 9.128 8.438 9.879v-6.987h-2.54v-2.892h2.54V9.797c0-2.507 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.462h-1.26c-1.243 0-1.63.772-1.63 1.562v1.875h2.773l-.443 2.892h-2.33v6.987C18.343 21.128 22 16.991 22 12z" />
+				</svg>
+			</a>
+
+
+			<a href="#" aria-label="Instagram van Absolut vodka">
+				<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000" width="32" height="32">
+					<title>Instagram</title>
+					<path
+						d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.054 1.97.24 2.427.403a4.92 4.92 0 0 1 1.675.996c.498.498.807 1.11.996 1.675.164.457.35 1.257.403 2.427.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.054 1.17-.24 1.97-.403 2.427a4.92 4.92 0 0 1-.996 1.675 4.92 4.92 0 0 1-1.675.996c-.457.164-1.257.35-2.427.403-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.054-1.97-.24-2.427-.403a4.92 4.92 0 0 1-1.675-.996 4.92 4.92 0 0 1-.996-1.675c-.164-.457-.35-1.257-.403-2.427C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.054-1.17.24-1.97.403-2.427a4.92 4.92 0 0 1 .996-1.675 4.92 4.92 0 0 1 1.675-.996c.457-.164 1.257-.35 2.427-.403C8.416 2.175 8.796 2.163 12 2.163zm0 1.838c-3.174 0-3.552.012-4.803.07-1.033.047-1.593.21-1.963.35a3.08 3.08 0 0 0-1.11.721 3.08 3.08 0 0 0-.721 1.11c-.14.37-.303.93-.35 1.963-.058 1.25-.07 1.628-.07 4.803s.012 3.552.07 4.803c.047 1.033.21 1.593.35 1.963.166.439.38.837.721 1.11.273.273.671.555 1.11.721.37.14.93.303 1.963.35 1.25.058 1.628.07 4.803.07s3.552-.012 4.803-.07c1.033-.047 1.593-.21 1.963-.35a3.08 3.08 0 0 0 1.11-.721 3.08 3.08 0 0 0 .721-1.11c.14-.37.303-.93.35-1.963.058-1.25.07-1.628.07-4.803s-.012-3.552-.07-4.803c-.047-1.033-.21-1.593-.35-1.963a3.08 3.08 0 0 0-.721-1.11 3.08 3.08 0 0 0-1.11-.721c-.37-.14-.93-.303-1.963-.35-1.25-.058-1.628-.07-4.803-.07zm0 4.838a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.838a3.162 3.162 0 1 0 0 6.324 3.162 3.162 0 0 0 0-6.324zm5.406-3.656a1.162 1.162 0 1 1 0 2.324 1.162 1.162 0 0 1 0-2.324z" />
+				</svg>
+			</a>
+
+			<a href="#" aria-label="Pintrest van Absolut vodka">
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="#000000" width="32" height="32">
+					<title>Pintrest</title>
+					<path
+						d="M220.646 338.475c-13.423 70.35-29.804 137.794-78.346 172.025-14.996-106.33 21.994-186.188 39.173-270.971-29.293-49.292 3.518-148.498 65.285-124.059 76.001 30.066-65.809 183.279 29.38 202.417 99.405 19.974 139.989-172.476 78.359-235.054-74.233-83.014-244.414 5.299-223.492 134.685 5.09 31.626 37.765 41.22 13.062 84.884-57.001-12.65-74.005-57.6-71.822-117.533 3.53-98.108 88.141-166.787 173.024-176.293 107.34-12.014 208.081 39.398 221.991 140.376 15.67 113.978-48.442 237.412-163.23 228.529-32.77-3.86-45.832-19.281-70.209-34.089z" />
+				</svg>
+			</a>
+		</section>
+
+
+		<section>
+			<h2>copyright</h2>
+			<a href="#" aria-label="taalinstellingen">
+				<svg fill="#000000" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32"
+					height="32">
+					<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+					<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+					<g id="SVGRepo_iconCarrier">
 						<path
-							d="M29.2913 8.69C29.1735 8.22919 28.9478 7.80298 28.6329 7.44654C28.318 7.09011 27.9228 6.81366 27.48 6.64C23.195 4.985 16.375 5 16 5C15.625 5 8.805 4.985 4.52 6.64C4.0772 6.81366 3.68204 7.09011 3.36712 7.44654C3.05219 7.80298 2.82653 8.22919 2.70875 8.69C2.385 9.9375 2 12.2175 2 16C2 19.7825 2.385 22.0625 2.70875 23.31C2.82636 23.771 3.05194 24.1975 3.36687 24.5542C3.68181 24.9108 4.07706 25.1875 4.52 25.3613C8.625 26.945 15.05 27 15.9175 27H16.0825C16.95 27 23.3787 26.945 27.48 25.3613C27.9229 25.1875 28.3182 24.9108 28.6331 24.5542C28.9481 24.1975 29.1736 23.771 29.2913 23.31C29.615 22.06 30 19.7825 30 16C30 12.2175 29.615 9.9375 29.2913 8.69ZM20.0737 16.815L15.0737 20.315C14.9242 20.4198 14.7488 20.4816 14.5666 20.4938C14.3844 20.5059 14.2023 20.4679 14.0401 20.384C13.878 20.3 13.7419 20.1732 13.6467 20.0174C13.5515 19.8615 13.5007 19.6826 13.5 19.5V12.5C13.5001 12.3171 13.5503 12.1377 13.6452 11.9813C13.7402 11.8249 13.8762 11.6976 14.0385 11.6132C14.2008 11.5287 14.3831 11.4904 14.5656 11.5024C14.7482 11.5144 14.9239 11.5763 15.0737 11.6813L20.0737 15.1813C20.2053 15.2735 20.3126 15.396 20.3868 15.5386C20.4609 15.6811 20.4996 15.8394 20.4996 16C20.4996 16.1606 20.4609 16.3189 20.3868 16.4614C20.3126 16.604 20.2053 16.7265 20.0737 16.8188V16.815Z" />
-					</g>
-
-				</svg></button>
-
-			<button><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" aria-label="X">
-					<g clip-path="url(#clip0_1105_136)">
-						<path d="M6 5H12L26 27H20L6 5Z" stroke="black" stroke-width="2" stroke-linecap="round"
-							stroke-linejoin="round" />
-						<path d="M14.235 17.9413L6 27" stroke="black" stroke-width="2" stroke-linecap="round"
-							stroke-linejoin="round" />
-						<path d="M25.9999 5L17.7649 14.0588" stroke="black" stroke-width="2" stroke-linecap="round"
-							stroke-linejoin="round" />
-					</g>
-					<defs>
-						<clipPath id="clip0_1105_136">
-							<rect width="32" height="32" />
-						</clipPath>
-					</defs>
-				</svg></button>
-
-			<button><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-					viewBox="0 0 512 512" xml:space="preserve" aria-label="Facebook">
-
-					<path style="display: inline;"
-						d="M283.122,122.174c0,5.24,0,22.319,0,46.583h83.424l-9.045,74.367h-74.379 c0,114.688,0,268.375,0,268.375h-98.726c0,0,0-151.653,0-268.375h-51.443v-74.367h51.443c0-29.492,0-50.463,0-56.302 c0-27.82-2.096-41.02,9.725-62.578C205.948,28.32,239.308-0.174,297.007,0.512c57.713,0.711,82.04,6.263,82.04,6.263 l-12.501,79.257c0,0-36.853-9.731-54.942-6.263C293.539,83.238,283.122,94.366,283.122,122.174z">
-					</path>
-
-				</svg></button>
-
-			<button><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Instagram">
-
-					<path fill-rule="evenodd" clip-rule="evenodd"
-						d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
-						/path>
-						<path
-							d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z">
+							d="M32.032 16c0-8.501-6.677-15.472-15.072-15.969-0.173-0.019-0.346-0.032-0.523-0.032-0.052 0-0.104 0.005-0.156 0.007-0.093-0.002-0.186-0.007-0.281-0.007-8.84 0-16.032 7.178-16.032 16.001s7.192 16.001 16.032 16.001c0.094 0 0.188-0.006 0.281-0.008 0.052 0.002 0.104 0.008 0.156 0.008 0.176 0 0.349-0.012 0.523-0.032 8.395-0.497 15.072-7.468 15.072-15.969zM29.049 21.151c-0.551-0.16-1.935-0.507-4.377-0.794 0.202-1.381 0.313-2.84 0.313-4.357 0-1.196-0.069-2.354-0.197-3.469 3.094-0.37 4.45-0.835 4.54-0.867l-0.372-1.050c0.695 1.659 1.080 3.478 1.080 5.386 0 1.818-0.352 3.555-0.987 5.151zM8.921 16c0-1.119 0.074-2.212 0.21-3.263 1.621 0.127 3.561 0.222 5.839 0.243v6.939c-2.219 0.021-4.114 0.111-5.709 0.234-0.22-1.319-0.34-2.715-0.34-4.154zM16.967 2.132c2.452 0.711 4.552 4.115 5.492 8.628-1.512 0.12-3.332 0.209-5.492 0.229v-8.857zM14.971 2.156v8.832c-2.136-0.021-3.965-0.109-5.502-0.226 0.96-4.457 3.076-7.836 5.502-8.606zM14.971 21.913l0 7.929c-2.263-0.718-4.256-3.705-5.293-7.719 1.492-0.11 3.253-0.189 5.292-0.21zM16.967 29.868l-0-7.955c2.061 0.020 3.814 0.102 5.288 0.217-1.019 4.067-3 7.076-5.288 7.738zM16.967 19.92l0-6.939c2.291-0.021 4.218-0.118 5.818-0.25 0.131 1.053 0.203 2.147 0.203 3.268 0 1.442-0.116 2.84-0.329 4.16-1.575-0.128-3.462-0.219-5.692-0.24zM28.588 9.81c-0.302 0.094-1.564 0.453-4.094 0.751-0.564-2.998-1.584-5.561-2.91-7.412 3.048 1.325 5.535 3.697 7.005 6.661zM11.213 2.831c-1.632 1.873-2.963 4.568-3.691 7.754-2.265-0.245-3.623-0.534-4.166-0.665 1.585-3.27 4.407-5.836 7.856-7.088zM2.614 11.787c0.385 0.104 1.841 0.467 4.549 0.766-0.155 1.107-0.24 2.26-0.24 3.447 0 1.509 0.136 2.96 0.383 4.334-2.325 0.251-3.755 0.552-4.396 0.706-0.607-1.566-0.944-3.264-0.944-5.041 0-1.467 0.228-2.883 0.649-4.213zM3.784 22.886c0.727-0.154 2.029-0.39 3.956-0.591 0.759 2.803 1.993 5.175 3.473 6.874-3.16-1.148-5.79-3.398-7.429-6.282v0zM21.583 28.849c1.195-1.665 2.14-3.907 2.728-6.525 1.982 0.227 3.226 0.494 3.853 0.652-1.5 2.596-3.808 4.669-6.581 5.873z">
 						</path>
-						<path fill-rule="evenodd" clip-rule="evenodd"
-							d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z">
-						</path>
-
-				</svg></button>
-
-
-
-			<h2>copyright (verbergen)</h2>
-			<button> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="far"
-					data-icon="globe" class="svg-inline--fa fa-globe fa-w-16" role="img" viewBox="0 0 496 512"
-					aria-label="Change language">
-					<path fill="currentColor"
-						d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm179.3 160h-67.2c-6.7-36.5-17.5-68.8-31.2-94.7 42.9 19 77.7 52.7 98.4 94.7zM248 56c18.6 0 48.6 41.2 63.2 112H184.8C199.4 97.2 229.4 56 248 56zM48 256c0-13.7 1.4-27.1 4-40h77.7c-1 13.1-1.7 26.3-1.7 40s.7 26.9 1.7 40H52c-2.6-12.9-4-26.3-4-40zm20.7 88h67.2c6.7 36.5 17.5 68.8 31.2 94.7-42.9-19-77.7-52.7-98.4-94.7zm67.2-176H68.7c20.7-42 55.5-75.7 98.4-94.7-13.7 25.9-24.5 58.2-31.2 94.7zM248 456c-18.6 0-48.6-41.2-63.2-112h126.5c-14.7 70.8-44.7 112-63.3 112zm70.1-160H177.9c-1.1-12.8-1.9-26-1.9-40s.8-27.2 1.9-40h140.3c1.1 12.8 1.9 26 1.9 40s-.9 27.2-2 40zm10.8 142.7c13.7-25.9 24.4-58.2 31.2-94.7h67.2c-20.7 42-55.5 75.7-98.4 94.7zM366.3 296c1-13.1 1.7-26.3 1.7-40s-.7-26.9-1.7-40H444c2.6 12.9 4 26.3 4 40s-1.4 27.1-4 40h-77.7z" />
-				</svg>Global (English)</button>
+					</g>
+				</svg>
+				Global(English)
+			</a>
 			<p>© 2024 The Absolut Company. All rights reserved.</p>
 		</section>
 	</footer>
