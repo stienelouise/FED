@@ -272,5 +272,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   5. ChatGPT. (2025, 8 december). Chatgesprek met gebruiker Stiene over CSS-afbeeldingsproblemen [Persoonlijke communicatie].
   6. ChatGPT. (2025, 3 december). Persoonlijke communicatie met gebruiker Stiene over light/dark mode toggle in HTML en JavaScript.
   7. ChatGPT. (2025, 1 december). Chatgesprek met gebruiker Stiene over het aanpassen van opacity in CSS [Persoonlijke communicatie].
+  8. https://stackoverflow.com/questions/67229313/open-link-in-new-window
+  9. https://www.youtube.com/watch?v=JYfiaSKeYhE&list=WL&index=2
+  10. https://www.youtube.com/watch?v=rg7Fvvl3taU&list=WL&index=3
+  11. https://www.youtube.com/watch?v=t_GuuhNNcNQ&list=WL&index=1
 
 </details>
