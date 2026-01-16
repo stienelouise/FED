@@ -377,7 +377,11 @@ header nav ul li a:focus-visible {
 	transform: translateX(10px);
 }
 
-
+header nav ul li:last-of-type {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
 
 

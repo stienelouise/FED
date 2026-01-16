@@ -1,11 +1,12 @@
 // ================================
 // CONSTANTEN
 // ================================
-const menuButton = document.querySelector("header button"); // hamburger/menu knop
+const menuButton = document.querySelector("header button"); // hamburger knop
 const deNav = document.querySelector("header nav");          // navigatie menu
 const ageMenu = document.getElementById("ageMenu");          // dialog venste voor leeftijdscheck
 const submitBtn = document.getElementById("submitDob");      // knop om geboortedatum te bevestigen
 const dobInput = document.getElementById("dob");             // inputveld voor geboortedatum
+const checkbox = document.querySelector('.drunkmode');
 
 // ================================
 // LET VARIABELEN
@@ -16,7 +17,7 @@ let userAge = 0; // leeftijd van de gebruiker
 // FUNCTIONS
 // ================================
 
-// Functie om het menu open/dicht te togglen
+// Functie om het menu open/dicht te doen
 function toggleMenu() {
     deNav.classList.toggle("is_open");
 }
@@ -52,7 +53,7 @@ function checkAge() {
         ageMenu.close();
         ageMenu.parentNode.removeChild(ageMenu); // ChatGPT: Wrm verwijdert hij alleen de Backdrop?
     } else {
-        window.location.href = "https://www.trimbos.nl/kennis/alcohol/alcohol-en-jongeren/";
+        window.location.href = "https://www.trimbos.nl/kennis/alcohol/alcohol-en-jongeren/"; //stackoverflow.com/questions/67229313/open-link-in-new-window
     }
 }
 
@@ -68,32 +69,33 @@ function setWave(on) {
 }
 
 // ================================
-// OPSTART
+// LISTENERS
 // ================================
 
+// ChatGPT: Wrm sluit de dialog niet?
+if (ageMenu) {
+    ageMenu.showModal();
+}
 
-ageMenu.showModal();
+if (menuButton && deNav) {
+    menuButton.addEventListener('click', toggleMenu);
+}
+
+if (submitBtn) {
+    submitBtn.addEventListener("click", checkAge);
+}
 
 
-document.addEventListener('DOMContentLoaded', () => {
-    const checkbox = document.querySelector('.drunkmode');
-    if (!checkbox) return;
 
+if (checkbox) {
     setWave(checkbox.checked);
 
     checkbox.addEventListener('change', () => {
         setWave(checkbox.checked);
     });
-});
-
-// ================================
-// EVENT LISTENERS
-// ================================
+}
 
 
-menuButton.addEventListener('click', toggleMenu);
-
-submitBtn.addEventListener("click", checkAge);
 
 
 
